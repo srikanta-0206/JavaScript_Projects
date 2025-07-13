@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>3+9 Column Layout</title>
+  <link rel="stylesheet" href="../bootstrap-5.3.7-dist/css/bootstrap.rtl.min.css">
+</head>
+
+<body>
+
+<div class="container text-center mt-5">
+  <!-- First Row -->
+  <div class="row">
+    <div class="col-3 border bg-danger text-white pt-3">items-1</div>
+    <div class="col-9 border bg-info text-white">item-2
+      <div class="row">
+        <div class="col-4 border bg-success text-white">item-3</div>
+        <div class="col-4 border bg-warning">item-4</div>
+        <div class="col-4 border bg-primary text-white">item-5</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Second Row -->
+  <div class="row ">
+    <div class="col-2 border bg-secondary text-white">items-6</div>
+    <div class="col-8 border bg-success">items-7
+      <div class="row">
+        <div class="col-4 border bg-dark text-white">item-9</div>
+        <div class="col-8 border bg-success-subtle">item-10</div>
+      </div>
+    </div>
+    <div class="col-2 border bg-danger-subtle">items-8</div>
+  </div>
+</div>
+
+<script src="../bootstrap-5.3.7-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
